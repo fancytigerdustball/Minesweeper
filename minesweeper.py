@@ -23,7 +23,7 @@ MESSAGE = r'''
 OPTIONS = {'1': 'Easy', '2': 'Medium', '3': 'Hard', '4': 'Random'}
 NUMCOLORS = {1: 'white', 2: 'cyan', 3: 'magenta', 4: 'green', 5: 'blue', 6: 'red', 7: 'black', 8: 'white'}
 DIFF_DATA = {
-    # key: (grid edge, mines)
+    # Difficulty: (grid edge width, mines)
     'Easy': (10, 30),
     'Medium': (10, 40),
     'Hard': (10, 50)
@@ -91,7 +91,8 @@ class Cell:
                 pass
 
         for n in self.neighbors:
-            if (not n.dug) and (not n.mine):
+            if (((not n.dug) and (not n.mine)) and
+                ((n.index[0] - self.index[0] == 0) or (n.index[1] - self.index[1] == 0))):
                 n.dig()
 
     def __str__(self):
