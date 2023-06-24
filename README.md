@@ -5,6 +5,10 @@ Clone this repo or copy the code from minesweeper.py
 ## Use
 Run in your terminal:
 ```python3 minesweeper.py```
+
+If you want color, (very useful), run
+```pip install bext```
+
 In my terminal it looked like
 ```
 ***>python "***\Desktop\python\minesweeper.py"
