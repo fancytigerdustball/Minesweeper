@@ -4,7 +4,7 @@ A terminal-based clone of minesweeper using python
 Clone this repo or copy the code from minesweeper.py
 ## Use
 Run in your terminal:
-```python minesweeper```
+```python3 minesweeper.py```
 In my terminal it looked like
 ```
 ***>python "***\Desktop\python\minesweeper.py"
