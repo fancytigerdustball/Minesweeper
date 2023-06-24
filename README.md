@@ -32,3 +32,5 @@ When it prompts you for your move enter the x and y coordinates, and if you want
 Example: If x is 2 and y is 10, enter "0210"
 
 Example: If x is 9 and y is 3 and you want to flag, enter "0903f" ("f" can be anything)
+
+I don't know how large the grid or how many bombs there are in the original game, so my version might be off.
