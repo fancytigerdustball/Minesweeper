@@ -27,7 +27,7 @@ In my terminal it looked like
                                  Enter difficulty:
 ```
 
-When it prompts you for your move enter the x and y coordinates, and if you want to flag it, add something at the end.
+When it prompts you for your move enter the x and y coordinates, and if you want to flag it, add something at the end. Enter in the form of XXYYF.
 
 Example: If x is 2 and y is 10, enter "0210"
 
