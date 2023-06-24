@@ -22,6 +22,9 @@ In my terminal it looked like
                                           4. Random
                                  Enter difficulty:
 ```
+
 When it prompts you for your move enter the x and y coordinates, and if you want to flag it, add something at the end.
+
 Example: If x is 2 and y is 10, enter "0210"
+
 Example: If x is 9 and y is 3 and you want to flag, enter "0903f" ("f" can be anything)
