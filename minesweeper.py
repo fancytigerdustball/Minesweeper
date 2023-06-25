@@ -195,6 +195,6 @@ while True:
             continue
         break
     if flag:
-        matrix[y][x].flagged = True
+        matrix[y][x].flagged = not matrix[y][x].flagged
     else:
         matrix[y][x].dig()
