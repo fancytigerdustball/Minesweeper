@@ -44,3 +44,7 @@ You can edit how large the grid is and how many bombs there are by editing the D
 <img src="screenshots/msss2.png"/>
 
 <img src="screenshots/msss3.png"/>
+
+<img src="screenshots/msss4.png"/>
+And then
+<img src="screenshots/msss5.png"/>
