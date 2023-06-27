@@ -36,3 +36,11 @@ Example: If x is 9 and y is 3 and you want to flag, enter "0903f" ("f" can be an
 I don't know how large the grid or how many bombs there are in the original game, so my version might be off.
 
 You can edit how large the grid is and how many bombs there are by editing the DIFF_DATA variable.
+
+## Screenshots
+
+<img src="screenshots/msss1.png"/>
+
+<img src="screenshots/msss2.png"/>
+
+<img src="screenshots/msss3.png"/>
