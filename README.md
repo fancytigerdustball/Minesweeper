@@ -1,5 +1,5 @@
 # Minesweeper
-A terminal-based clone of minesweeper using python
+A terminal-based clone of minesweeper written in python
 ## Installation
 Clone this repo or copy the code from minesweeper.py
 ## Use
@@ -48,3 +48,9 @@ You can edit how large the grid is and how many bombs there are by editing the D
 <img src="screenshots/msss4.png"/>
 And then
 <img src="screenshots/msss5.png"/>
+
+## Notes
+
+This program uses the os.system function which runs terminal commands. The program can only run "cls" or "clear" though.
+
+The cells on the grid that are upper-case p's are flagged ones.
